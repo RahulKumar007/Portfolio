@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    Rahul Kumar
+  </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://use.fontawesome.com/90e0769025.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+  body{
+      text-align: center;
+      font-family: helvetica;
+  }
+
+  video {
+  position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    -webkit-transform: translateX(-50%) translateY(0%);
+    transform: translateX(-50%) translateY(0%);
+}
+
+  .user{
+    z-index: 1;
+    margin-top: -25%;
+    margin-bottom: 15%;
+  }
+
+  .circular{
+      border: 10px;
+      border-color: rgba(0, 0, 0, 0.3);
+      border-radius: 100%;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  .content{
+    display: grid;
+  }
+
+  ul{
+    text-align: left;
+  }
+
+  .About{
+      max-width: 100%;
+      padding: 20px;
+      margin: 0 auto;
+      }
+  .img-responsive{
+      width: 100%;
+  }
+  .heads{
+    margin: 50px 0 0 50px;
+  }
+  .heading{
+    font-family: fantasy;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" >
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Rahul Kumar</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#"><i class="fa fa-home"> Home</i></a></li>
+        <li><a href="#About"><i class="fa fa-user-circle" aria-hidden="true"> About</i></a></li>
+        <li><a href="#Portfolio"><i class="fa fa-graduation-cap"> Portfolio</i></a></li>
+        <li><a href="#Contact"><i class="fa fa-address-card"> Contact</i></a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div class="content">
+  <div class="header">
+      <video autoplay loop>
+        <source src="res/typing.mp4" type="video/mp4">
+      </video>
+    <div class="user">
+      <img src="res/me.jpg" class="circular">
+    </div>
+  </div>
+  <div class="About heads">
+    <h1 class="heading"><a id="About"></a>About</h1>
+    <hr>
+    <p>
+      My name is Rahul. I am currently a student of Computer Science Engineering
+      in Dehradun. I like coding, developing and reading. I also like gaming and
+      puzzles. My favorite quotes are:-<br>
+      <ul class="list-unstyled">
+        <li><b>Never give up.</b></li>
+        <li><b>Nothing is Impossible.</b></li>
+      </ul>
+    </p>
+  </div>
+  <div class="Portfolio heads">
+    <h1 class="heading"><a id="Portfolio"></a>Projects</h1>
+    <hr>
+    <table class="table">
+      <tr>
+        <td><a href="https://github.com/RahulKumar007/Android_Chatbot"><img src="res/splash.png" class="img-responsive"></a></td>
+        <td><a href="https://github.com/RahulKumar007/Spy_Chat"><img src="res/spychat.jpg" class="img-responsive"></a></td>
+        <td><a href="https://github.com/RahulKumar007/Notepad-app"><img src="res/notepad.jpg" class="img-responsive"></a></td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/RahulKumar007/Photo_bot"><img src="res/instabot.jpg" class="img-responsive"></a></td>
+        <td><a href="https://github.com/RahulKumar007/New_Year_Greetings"><img src="res/newyear.jpg" class="img-responsive"></a></td>
+        <td><a href="https://github.com/RahulKumar007/Web-Crawler"><img src="res/webcrawler.jpg" class="img-responsive"></a></td>
+      </tr>
+    </table>
+  </div>
+  <div class="Contact heads">
+    <h1 class="heading"><a id="Contact"></a>Contact</h1>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          <a href="mailto:rahul.kumar95dit@gmail.com"><button class="btn btn-primary btn-lg"><i class="fa fa-envelope">Gmail</i></button></a>
+        </div>
+          <div class="col-xs-3">
+            <a href="https://www.facebook.com/profile.php?id=100002518260553"><button class="btn btn-primary btn-lg"><i class="fa fa-facebook-square">Facebook</i></button></a>
+          </div>
+          <div class="col-xs-3">
+            <a href="https://github.com/RahulKumar007"><button class="btn btn-primary btn-lg"><i class="fa fa-github-alt">Github</i></button></a>
+          </div>
+          <div class="col-xs-3">
+            <a href="https://www.linkedin.com/in/rahul-kumar-10a9a95/"><button class="btn btn-primary btn-lg"><i class="fa fa-linkedin-square">LinkedIn</i></button></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
